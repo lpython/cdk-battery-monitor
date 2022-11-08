@@ -1,0 +1,38 @@
+{
+  "name": "battery-monitor",
+  "version": "0.1.0",
+  "bin": {
+    "battery-monitor": "bin/battery-monitor.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/prettier": "2.6.0",
+    "aws-cdk": "2.46.0",
+    "esbuild": "^0.15.12",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.9.1",
+    "typescript": "~3.9.7",
+
+    "@aws-sdk/client-dynamodb": "^3.190.0",
+    "@aws-sdk/client-rekognition": "^3.190.0",
+    "@aws-sdk/util-dynamodb": "^3.190.0",
+    "@types/aws-lambda": "^8.10.107",
+    "luxon": "^3.0.4",
+
+    "@types/luxon": "^3.0.2",
+    "@types/node": "^18.11.0"
+
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.46.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}

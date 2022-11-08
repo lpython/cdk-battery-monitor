@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1571"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   sodipodi:docname="battery-50.svg"
+   inkscape:export-filename="battery-50.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1573"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.914906"
+     inkscape:cx="295.65879"
+     inkscape:cy="543.77171"
+     inkscape:window-width="1666"
+     inkscape:window-height="1205"
+     inkscape:window-x="719"
+     inkscape:window-y="70"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1568" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#b6de87;fill-opacity:0;stroke:#0b0b0b;stroke-width:4.276;stroke-dasharray:none"
+       id="rect3924"
+       width="50.31937"
+       height="10.989288"
+       x="32.100292"
+       y="4.916255"
+       rx="1.8761362"
+       ry="2.188529" />
+    <rect
+       style="fill:#b6de87;fill-opacity:0;stroke:#0b0b0b;stroke-width:5.876;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect3922"
+       width="105.84421"
+       height="153.27167"
+       x="6.3622127"
+       y="16.483927"
+       rx="7"
+       ry="7" />
+    <rect
+       style="fill:#e12c1a;fill-opacity:0.989637;stroke:#0b0b0b;stroke-width:0;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect4550"
+       width="93.556984"
+       height="32.537506"
+       x="12.505836"
+       y="131.65283" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#rect4550"
+       id="use6344"
+       transform="translate(-0.28919183,-36.148976)" />
+  </g>
+</svg>

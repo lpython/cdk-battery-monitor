@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="rgba(252,176,69,1) ">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,400&display=swap');
+        
+        @keyframes battery-shrink {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(0.6);
+            }
+        }
+ 
+        * {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        body {
+            margin: 0;
+            background: rgb(131,58,180);
+            /* background: linear-gradient(20deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 88%, rgba(252,176,69,1) 100%);            min-height: 100vh; */
+            background:  linear-gradient(45deg, rgba(250,198,149,1) 0%,rgba(245,171,102,1) 47%,rgba(239,141,49,1) 100%);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        div.tint {
+            visibility: hidden;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.511);
+        }
+
+        div.main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            background-color: rgba(0, 0, 0, 0.23);
+            border-radius: 10px;
+            padding: 0.6rem 1rem;
+            margin: 0.5rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            box-sizing: border-box;
+        }
+
+        div.battery {
+            display:flex;
+            flex-direction: row;
+            max-width: 70%;
+
+        }
+
+        img.battery {
+            max-width: 100%;
+            background-image: url('graphics/battery-skeleton.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            image-rendering: pixelated;
+        }
+
+        h3 { 
+            margin: 0;
+            /* margin-left: 1rem; */
+            font-weight: 400;
+            font-style: italic;
+            font-size: 32px;
+        }
+
+        @media (hover: hover) {
+            div.tint {
+                visibility: visible;
+            }
+
+            div.tint {
+                flex-grow: 1;
+            }
+
+            div.main {
+                max-width: 20rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            
+        }
+
+        @media (hover: none) {
+            * {
+                font-weight: 200;
+
+            }
+
+            body > div {
+                max-width: unset;
+            }
+
+            nav {
+                margin-top: 2rem;
+                /* margin: 0; */
+            }
+
+            div.battery {
+                justify-content: left;
+            }
+
+            img.battery {
+                max-height: 70vh;
+            }
+        }
+
+
+        .number-container {
+            position: relative;
+            margin-left: 1rem;
+        }
+        .number-container > div {
+            position: absolute;
+            width: 30vw;
+            top: calc(99% - 48px);
+            font-size: 48px;
+
+            transition: top 2s;
+        }
+        .number {
+      
+            font-size: 48px;
+        }
+        #battery-level-percent {
+            font-size: 12px;
+        }
+        
+    </style>
+
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="tint"></div>
+    <div class="main">
+        <nav>
+            <h3>Battery Monitor</h3>
+        </nav>
+        <div class="battery">
+            <img class="battery" src="graphics/battery-skeleton.png"/>
+            <div class="number-container">
+                <div class="number-parent">
+                    <div>
+                        <span id="battery-level-text">0</span>
+                        <span id="battery-level-percent">%</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bottom-menu">
+            
+        </div>
+    </div>
+    <div class="tint"></div>
+
+</body>
+</html>

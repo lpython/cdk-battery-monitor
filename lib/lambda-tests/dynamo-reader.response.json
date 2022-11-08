@@ -1,0 +1,138 @@
+{
+    "$metadata": {
+      "httpStatusCode": 200,
+      "requestId": "4P2ONC5MM45UMS2LN0R98JC4S7VV4KQNSO5AEMVJF66Q9ASUAAJG",
+      "attempts": 1,
+      "totalRetryDelay": 0
+    },
+    "Count": 3,
+    "Items": [
+      {
+        "Text_5": {
+          "S": "but"
+        },
+        "Text_6": {
+          "S": "and"
+        },
+        "UploadDate": {
+          "S": "2022-10-20T05:41:13.162Z"
+        },
+        "Text_7": {
+          "S": "86"
+        },
+        "Text_1": {
+          "S": "but"
+        },
+        "Text_2": {
+          "S": "and"
+        },
+        "Text_3": {
+          "S": "86"
+        },
+        "Image": {
+          "S": "0049.jpg"
+        },
+        "Text_4": {
+          "S": "R26"
+        },
+        "Text_0": {
+          "S": "R26"
+        }
+      },
+      {
+        "Text_5": {
+          "S": "DUTDOOR"
+        },
+        "Text_6": {
+          "S": "222\""
+        },
+        "UploadDate": {
+          "S": "2022-10-20T04:41:43.977Z"
+        },
+        "Text_7": {
+          "S": "85"
+        },
+        "Text_1": {
+          "S": "DUTDOOR"
+        },
+        "Text_2": {
+          "S": "222\""
+        },
+        "Text_3": {
+          "S": "85"
+        },
+        "Image": {
+          "S": "0006.jpg"
+        },
+        "Text_4": {
+          "S": "<<<<<<<<"
+        },
+        "Text_0": {
+          "S": "<<<<<<<<"
+        }
+      },
+      {
+        "Text_17": {
+          "S": "IGNITION"
+        },
+        "Text_5": {
+          "S": "PUSH 2932 ON ZADI ® IGNITION"
+        },
+        "Text_16": {
+          "S": "®"
+        },
+        "Text_6": {
+          "S": "12:34'"
+        },
+        "UploadDate": {
+          "S": "2022-10-20T06:55:56.508Z"
+        },
+        "Text_15": {
+          "S": "ZADI"
+        },
+        "Text_7": {
+          "S": "#35."
+        },
+        "Text_14": {
+          "S": "ON"
+        },
+        "Text_8": {
+          "S": "87"
+        },
+        "Text_1": {
+          "S": "#35."
+        },
+        "Text_13": {
+          "S": "2932"
+        },
+        "Text_12": {
+          "S": "PUSH"
+        },
+        "Text_2": {
+          "S": "87"
+        },
+        "Text_11": {
+          "S": "TRASH"
+        },
+        "Text_3": {
+          "S": "OUTDOOR"
+        },
+        "Text_10": {
+          "S": "Bags"
+        },
+        "Text_4": {
+          "S": "Bags TRASH"
+        },
+        "Text_9": {
+          "S": "OUTDOOR"
+        },
+        "Image": {
+          "S": "0168.jpg"
+        },
+        "Text_0": {
+          "S": "12:34'"
+        }
+      }
+    ],
+    "ScannedCount": 3
+  }
