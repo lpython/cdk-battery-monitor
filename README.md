@@ -40,8 +40,18 @@ Multiple components of this solution are:
 
 # Deployment
 
-## Cdk deployment 
+## AWS via CDK 
 
+- Configure
+```typescript
+ new StaticSite(this, "static-web", { 
+    domainName: "ABCDEFG.COM",
+    siteSubDomain: "app",
+    siteContents: "./front/web"
+  });
+```
+
+- Deploy
 ```
 cdk deploy --parameters RemoteDeviceIAMUserARN=arn:aws:iam::NNNNNNNNN:user/jetbot
 ```
@@ -56,6 +66,12 @@ const endpoint = "https://abcdefghij.execute-api.us-west-2.amazonaws.com/dev"
 ## Remote device setup
 
 - Use `remote-device/setup.sh` to setup remote device
+```bash
+-e AWS_ACCESS_KEY_ID=XXX \
+-e AWS_SECRET_ACCESS_KEY=YYY \
+-e S3_BUCKET=ZZZ \
+```
+
 
 - Setup file system (RAM Disk)
 ```bash
@@ -88,6 +104,7 @@ ubuntu_aws_nv_nano python3 /home/nvidia-image-capture/aws_upload_capture.py
 ```
 
 # Todo
+- Cdk static site setup has a small issue with cloudfront <--> S3 setup, requires manual adjust after deploy
 - Expend cdk parameters
   - Domain
   - Certificate

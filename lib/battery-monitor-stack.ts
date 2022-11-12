@@ -43,8 +43,8 @@ export class BatteryMonitorStack extends cdk.Stack {
     // ========================================
 
     new StaticSite(this, "static-web", { 
-      domainName: "alexmcnurlan.me",
-      siteSubDomain: "",
+      domainName: "ABCDEFG.COM",
+      siteSubDomain: "app",
       siteContents: "./front/web"
     });
 

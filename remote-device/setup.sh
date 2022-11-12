@@ -24,7 +24,7 @@ sudo docker run \
 --name=jetbot_upload \
 --network=bridge \
 --mount type=bind,src=/Users/admin/repos/cdk-battery-monitor/remote-device/captures/,dst=$CAPTURE_DIR \
--e AWS_ACCESS_KEY_ID=xxx \
+-e AWS_ACCESS_KEY_ID=XXX \
 -e AWS_SECRET_ACCESS_KEY=YYY \
 -e S3_BUCKET=ZZZ \
 jetbot-upload:auto 
